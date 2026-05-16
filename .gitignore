@@ -1,0 +1,77 @@
+# -----------------------------
+# OS-SPECIFIC FILES
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# PYTHON CACHE / BUILD FILES
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.egg-info/
+*.egg
+*.log
+
+# -----------------------------
+# VIRTUAL ENVIRONMENTS
+# -----------------------------
+venv/
+.venv/
+.env
+.env/
+.env.local
+
+# -----------------------------
+# PROJECT DATA FILES
+# -----------------------------
+data/
+
+# -----------------------------
+# FASTAPI / DATABASE / TEMP FILES
+# -----------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+
+# -----------------------------
+# EDITOR / IDE FILES
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# JUPYTER NOTEBOOK CHECKPOINTS
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# TEMPORARY FILES
+# -----------------------------
+tmp/
+temp/
+*.bak
+
+# -----------------------------
+# TEST OUTPUT / REPORTS
+# -----------------------------
+coverage/
+htmlcov/
+.pytest_cache/
+
+# -----------------------------
+# EDA OUTPUTS
+# -----------------------------
+eda_outputs/
+
+# -----------------------------
+# ZIP / GENERATED FILES
+# -----------------------------
+*.zip
